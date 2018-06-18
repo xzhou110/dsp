@@ -9,33 +9,33 @@ Please follow and complete the free online [Bash Scripting Tutorial](https://rya
 ### Q1.  Cheat Sheet of Commands  
 
 Here's a list of items with which you should be familiar:  
-* show current working directory path
-* creating a directory
-* deleting a directory
-* creating a file using `touch` command
-* deleting a file
-* renaming a file
-* listing hidden files
-* copying a file from one directory to another
+* pwd: show current working directory path
+* mkdir: creating a directory
+* rm -rf: deleting a directory
+* touch: creating a file using `touch` command
+* rm: deleting a file
+* mv: renaming a file
+* ls -a: listing hidden files
+* cp: copying a file from one directory to another
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
 
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
+`ls`: list files in current directory  
+`ls -a`  : list all files
+`ls -l`  : displays the listing in long format
+`ls -lh`  : disply in long format, and file sizes using human frienly units
+`ls -lah`  : all files, long format, file sizes
+`ls -t`  : list in the order of time
+`ls -Glp`  : displays long format listing but excludes owner name, long format, directory names
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
 
 ---
 
@@ -43,7 +43,13 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+ls -a
+ls -d
+ls -c
+ls -l
+ls -r
+
 
 ---
 
@@ -51,7 +57,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > Building an execution pipeline from standard input
 
+echo "abc" | xargs mkdir
  
 
